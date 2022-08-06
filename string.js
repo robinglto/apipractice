@@ -79,3 +79,9 @@ let cortando = frase.slice(0, 5);
 let cortandodos = frase.slice(5);
 console.log(cortando);
 console.log(cortandodos);
+
+
+
+let saludo = 'Hola a todos';
+let metodo = saludo.substring(0,4);
+console.log(metodo);
