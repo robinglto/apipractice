@@ -50,3 +50,32 @@ console.log(palabreando.at(2))
 let valores = [1,2,[3,4,[5,6]]];
 valores = valores.join(',');
 console.log(valores)
+
+
+const str1 = 'Breaded Mushrooms';
+console.log(str1.padEnd(25, '.'));
+
+
+const str2 = '200';
+console.log(str2.padEnd(5));
+
+
+const mood = 'I am happy ';
+console.log(mood.repeat(5))
+
+let texto = "Apple store!";
+let result = texto.replace("Apple", "Google");
+console.log(result)
+
+let texteando = "Mr. Blue has a blue house";
+let position = texteando.search("Blue");
+console.log(texteando)
+console.log(position)
+
+
+
+let frase = "Hello world!";
+let cortando = frase.slice(0, 5);
+let cortandodos = frase.slice(5);
+console.log(cortando);
+console.log(cortandodos);
