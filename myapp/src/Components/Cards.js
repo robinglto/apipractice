@@ -2,7 +2,7 @@ import React from "react";
 
 export function Cards (props){
     return(
-        <div className="">
+        <div>
         <div className="mx-16 my-4  ">
             <div className="grid grid-cols-9 gasp-2  ">
 
@@ -14,7 +14,7 @@ export function Cards (props){
             </div>
 
                 <div className="space-x-4 lg:col-start-5 lg:col-end-6 sm:col-start-6 sm:col-end-8 col-start-8 col-end-10 flex">               
-                    <div className="">
+                    <div>
                         <button className={`w-3 h-3 rounded-full ${
                                 props.status!=='unknown'?
                                 props.status==='Alive'? "bg-green-500": "bg-red-600":"bg-gray-400"}

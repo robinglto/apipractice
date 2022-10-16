@@ -5,9 +5,6 @@ export function Getrecursos(){
 
 
     let convertir = JSON.parse(localStorage.getItem('personajes'))
-    const [state,setState]=useState(null)
-
-
 
     useEffect(
         ()=>{
@@ -34,8 +31,7 @@ export function Getrecursos(){
     return(
         <div>
                 {convertir
-                ?convertir.map(persona=><Cards key={persona.id} img={persona.image} name={persona.name} status={persona.status} species={persona.species} location={persona.location.name} origin={persona.origin.name} />)
-                            
+                ?convertir.map(persona=><Cards key={persona.id} img={persona.image} name={persona.name} status={persona.status} species={persona.species} location={persona.location.name} origin={persona.origin.name} />)   
                 :null
                 }
         </div>
