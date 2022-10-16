@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Cards2 (props){
+export function Cards (props){
     return(
         <div className="">
         <div className="mx-16 my-4  ">
